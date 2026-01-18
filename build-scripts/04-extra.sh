@@ -14,6 +14,7 @@ packages=(
   firewall-config
 
   foot
+  kitty
   nautilus
   nautilus-python
 
