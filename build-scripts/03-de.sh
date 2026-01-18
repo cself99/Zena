@@ -25,6 +25,7 @@ packages=(
   cava
   matugen
   wl-clipboard
+  scroll
 )
 dnf5 -y install "${packages[@]}"
 
