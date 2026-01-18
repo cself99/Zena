@@ -18,6 +18,7 @@ coprs=(
   avengemedia/dms
 
   che/nerd-fonts
+  scrollwm/packages
 )
 
 mkdir -p /var/roothome
