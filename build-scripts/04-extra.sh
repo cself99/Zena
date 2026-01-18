@@ -13,6 +13,7 @@ packages=(
   bazaar
   firewall-config
 
+  fish
   foot
   kitty
   nautilus
