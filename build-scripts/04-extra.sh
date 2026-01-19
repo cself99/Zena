@@ -14,6 +14,8 @@ packages=(
   firewall-config
 
   fish
+  qt6ct
+  adw-gtk3-theme
   foot
   kitty
   nautilus
