@@ -18,6 +18,7 @@ packages=(
   dgop
   danksearch
   quickshell
+  mangowc
 
   adw-gtk3-theme
   xwayland-satellite
