@@ -19,6 +19,7 @@ coprs=(
 
   che/nerd-fonts
   scrollwm/packages
+  duxworm/xdg-desktop-portal-luminous
 )
 
 mkdir -p /var/roothome
