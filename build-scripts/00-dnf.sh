@@ -20,6 +20,7 @@ coprs=(
   che/nerd-fonts
   scrollwm/packages
   duxworm/xdg-desktop-portal-luminous
+  brycensranch/gpu-screen-recorder-git
 )
 
 mkdir -p /var/roothome
