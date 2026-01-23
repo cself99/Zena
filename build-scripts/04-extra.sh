@@ -15,6 +15,7 @@ packages=(
 
   fish
   qt6ct
+  gpu-screen-recorder-ui
   adw-gtk3-theme
   foot
   kitty
