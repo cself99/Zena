@@ -52,7 +52,7 @@ def install():
         ),
         "--init-hooks",
         (
-            "usermod -aG libvirt $USER || true"
+            "usermod -aG libvirt $USER || true; "
             "distrobox-export --app virt-manager"
         ),
     ], env=env)
