@@ -20,6 +20,7 @@ system_services=(
   zena-setup.service
   systemd-homed.service
   systemd-resolved.service
+  flatpak-gtk-config.service
   bootc-fetch-apply-updates.service
 )
 
