@@ -8,7 +8,6 @@ shopt -s nullglob
 
 packages=(
   fastfetch
-  gh
 
   bazaar
   firewall-config
@@ -36,5 +35,7 @@ packages=(
 packages=(
 )
 # dnf5 -y remove "${packages[@]}"
+
+sed -i '/^[[:space:]]*Defaults[[:space:]]\+timestamp_timeout[[:space:]]*=/d;$a Defaults timestamp_timeout=1' /etc/sudoers
 
 echo "::endgroup::"

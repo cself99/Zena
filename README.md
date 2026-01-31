@@ -76,7 +76,7 @@ Notes:
 
 ### Typical install flow
 
-1. Download the latest ISO/installer image from Gofile [link](https://gofile.io/d/83PV6k), Send.now [link](https://send.now/a/1BWK) or from the GitHub Actions artifact storage.
+1. Download the latest ISO/installer image from the [Landing Page](https://zena-linux.github.io/).
 2. Create a bootable USB (e.g., `dd`, balenaEtcher, Rufus).
 3. Boot the target machine from the installer image and follow the installer prompts.
 
@@ -286,10 +286,7 @@ We welcome contributions.
 
 ## Roadmap
 
-Short-to-mid term items:
-
-* Default Flatpaks (optional, toggle via initial setup)
-* Improvements to the TUI `zena-setup`
+Check the project kanban here on the repo projects tab.
 
 ## License
 

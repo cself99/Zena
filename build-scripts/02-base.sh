@@ -35,6 +35,8 @@ packages=(
   audispd-plugins
   cifs-utils
   firewalld
+  fprintd
+  fprintd-pam
   fuse
   fuse-devel
   man-pages
@@ -46,6 +48,7 @@ packages=(
   xdg-user-dirs
   xdg-terminal-exec
   xdg-user-dirs-gtk
+  zenity
 
   ############################
   # DESKTOP PORTALS          #
@@ -125,6 +128,8 @@ packages=(
   ksmtuned
   cachyos-ksm-settings
   cachyos-settings
+  scx-scheds-git
+  scx-tools-git
   scx-manager
   scxctl
 
@@ -142,33 +147,13 @@ packages=(
   nix
   nix-daemon
 
+  ############################
+  # Dazzle                   #
+  ############################
   plymouth
   plymouth-system-theme
 )
 dnf5 -y install "${packages[@]}" --exclude=scx-tools-nightly --exclude=scx-scheds-nightly
-
-# Install packages via rpm to avoid dependency checks
-TMPDIR=$(mktemp -d)
-pushd "$TMPDIR"
-
-packages=(
-  scx-scheds-nightly
-  scx-tools-nightly
-)
-
-dnf5 download --arch x86_64 \
-  --destdir "$TMPDIR" "${packages[@]}"
-
-packages=(
-  scx-tools
-  scx-scheds
-)
-
-rpm -e --nodeps "${packages[@]}"
-rpm -Uvh --force --nodeps *.rpm
-
-popd
-rm -rf "$TMPDIR"
 
 # Install install_weak_deps=false
 packages=(

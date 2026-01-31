@@ -21,6 +21,8 @@ packages=(
   mangowc
 
   adw-gtk3-theme
+  papirus-icon-theme
+
   xwayland-satellite
 
   cava
@@ -41,5 +43,10 @@ dnf5 -y install "${packages[@]}" --setopt=install_weak_deps=False
 packages=(
 )
 # dnf5 -y remove "${packages[@]}"
+
+dconf update
+
+sed -i 's|^Exec=.*|Exec=/bin/sh -c "niri-session > /dev/null 2>\&1"|' \
+  /usr/share/wayland-sessions/niri.desktop
 
 echo "::endgroup::"
