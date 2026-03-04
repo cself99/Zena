@@ -18,7 +18,7 @@ case "$IMAGE" in
       "de.wm.services"
       "integrations.homed"
       "integrations.nix"
-      "integration.virtualization"
+      "integrations.virtualization"
       "sign"
       "initramfs"
     )
@@ -36,7 +36,7 @@ case "$IMAGE" in
       "de.wm.services"
       "integrations.homed"
       "integrations.nix"
-      "integration.virtualization"
+      "integrations.virtualization"
       "integrations.nvidia"
       "sign"
       "initramfs"
