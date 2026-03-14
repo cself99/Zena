@@ -5,6 +5,7 @@ shopt -s nullglob
 packages=(
   adw-gtk3-theme
   alacritty
+  ghostty
   cava
   danksearch
   dgop
