@@ -3,11 +3,8 @@ set -ouex pipefail
 shopt -s nullglob
 
 packages=(
-  kernel-cachyos-lto
-  kernel-cachyos-lto-core
-  kernel-cachyos-lto-devel-matched
-  kernel-cachyos-lto-modules
   kernel
+  kernel-modules
 )
 
 pushd /usr/lib/kernel/install.d
