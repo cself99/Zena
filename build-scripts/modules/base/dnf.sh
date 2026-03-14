@@ -28,6 +28,7 @@ coprs=(
   avengemedia/dms
 
   lionheartp/Hyprland
+  scottames/ghostty
 
   che/nerd-fonts
 )
