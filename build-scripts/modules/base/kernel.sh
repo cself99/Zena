@@ -7,6 +7,7 @@ packages=(
   kernel-cachyos-lto-core
   kernel-cachyos-lto-devel-matched
   kernel-cachyos-lto-modules
+  kernel
 )
 
 pushd /usr/lib/kernel/install.d
