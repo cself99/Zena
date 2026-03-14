@@ -27,6 +27,8 @@ coprs=(
   avengemedia/danklinux
   avengemedia/dms
 
+  lionheartp/Hyprland
+
   che/nerd-fonts
 )
 
