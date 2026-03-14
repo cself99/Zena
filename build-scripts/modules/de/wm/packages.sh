@@ -20,6 +20,10 @@ packages=(
   xdg-desktop-portal-gtk
   xdg-desktop-portal-gnome
   wl-clipboard
+  hyprland-git
+  xdg-desktop-portal-hyprland
+  hyprsunset
+  hyprland-plugins-git
 )
 dnf5 -y install "${packages[@]}" --exclude=matugen --exclude=noctalia-qs
 dnf5 -y install nautilus-python matugen --releasever=44 --disablerepo='*copr*'
