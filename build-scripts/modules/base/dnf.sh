@@ -29,6 +29,7 @@ coprs=(
 
   lionheartp/Hyprland
   scottames/ghostty
+  sneed/kernel-hdmi-frl
 
   che/nerd-fonts
 )
